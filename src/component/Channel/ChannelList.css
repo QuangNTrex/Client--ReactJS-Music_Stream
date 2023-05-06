@@ -1,0 +1,22 @@
+.channel-list {
+  padding: 2rem;
+}
+
+.channel-list_item {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem;
+}
+.channel-list_item:hover {
+  background-color: #5a3f73;
+}
+.channel-list_item .thumbnail-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.channel-list_item .desc {
+  font-size: 12px;
+}

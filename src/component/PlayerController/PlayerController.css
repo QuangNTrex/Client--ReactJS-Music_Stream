@@ -1,0 +1,16 @@
+.player-controller__left.player-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.player-controller__left.player-info .thumbnail-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  padding: 4px;
+}
+.player-controller {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

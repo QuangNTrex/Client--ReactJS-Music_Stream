@@ -1,0 +1,20 @@
+.audio-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.audio-player .level-item {
+  display: flex;
+  gap: 3rem;
+
+  padding-top: 0.5rem;
+}
+.audio-player .level-item i {
+  font-size: 18px;
+}
+.audio-player .level-item-bottom {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

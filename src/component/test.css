@@ -1,0 +1,18 @@
+.controller {
+  width: 100%;
+  height: 100vh;
+  background-color: blanchedalmond;
+
+  display: flex;
+  flex-direction: column;
+}
+.item-1 {
+  width: 100%;
+  height: 3rem;
+  background-color: aqua;
+}
+.item-2 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}

@@ -1,0 +1,28 @@
+.channel-detail {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.channel-detail .channel--top {
+}
+.channel-detail__list {
+  padding-top: 3rem;
+  height: 100%;
+  overflow: auto;
+  gap: 1rem;
+}
+.channel-detail__list-item {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.channel-detail__list-item:hover {
+  background-color: #5a3f73;
+}
+.channel-detail__list-item .thumbnail-img {
+  width: 80px;
+  height: 45px;
+  object-fit: cover;
+}
