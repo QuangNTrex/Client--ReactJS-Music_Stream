@@ -29,7 +29,7 @@ const PlayerController = () => {
       </div>
       <div className="player-controller__center music-control">
         <AudioPlayer
-          url={`http://localhost:5000/stream/music/${videoDetail.videoId}`}
+          url={`https://music-stream.onrender.com/stream/music/${videoDetail.videoId}`}
         />
       </div>
       <div className="player-controller__right music-setting"></div>

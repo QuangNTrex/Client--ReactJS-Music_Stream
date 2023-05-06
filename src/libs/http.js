@@ -1,7 +1,7 @@
-const domain = "localhost:5000/";
+const domain = "music-stream.onrender.com/";
 
 export const http = (params) => {
-  return fetch("http://" + (domain + params).replace(/[/]+/gi, "/"), {
+  return fetch("https://" + (domain + params).replace(/[/]+/gi, "/"), {
     credentials: "include",
     method: "GET",
   });
